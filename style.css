@@ -1,0 +1,102 @@
+body {
+    max-height: 100vh;
+
+}
+
+.container-one {
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    margin: 0px;
+    
+
+}
+
+img {
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.heading-text,
+.heading-subtext {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    margin: 0px;
+    margin-left: 50px;
+
+}
+
+.heading-text {
+    font-weight: bold;
+    font-size: 48px;
+    width: 800px;
+}
+
+.heading-subtext {
+    font-weight: 18px;
+    color: #F9FAF8;
+    width: 500px;
+}
+
+button {
+    border-radius: 5px;
+    width: 100px;
+    padding: 20px;
+    margin: 0px;
+    margin-left: 50px;
+    background-color: #3882F6;
+    color: white;
+}
+
+button:hover {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 100px;
+
+}
+
+li:hover {
+    color: yellow;
+}
+
+.right-side img {
+    width: 400px;
+    height: auto;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nimbus img {
+    width: 500px;
+    height: auto;
+    
+}
+
+.nimbus {
+    margin: -300px;
+
+}
