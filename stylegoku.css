@@ -74,14 +74,12 @@ body {
     
 
 }
-.right-side {
-    flex-direction:
-}
 
 .power-level,
 .potential,
 .intelligence,
-.personality {
+.personality,
+.overall {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -101,11 +99,20 @@ a:hover {
 .container-two {
     display: flex;
     justify-content: center;
-  
-    justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.container-two-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
 
 .goku-backwards-image img {
     display: flex;
@@ -114,14 +121,47 @@ a:hover {
     height: auto;
     width: 250px;
     padding: 100px;
-    border: 1px solid black;
+    
    
     margin: 10px;
 }
 
 .container-two .text-box {
-    width: 100%;
-    border: 1px solid black;
+
+    width: 1000px;
+    border: 3px solid red;
+    border-radius: 20px;
+
+    padding: 30px;
+    letter-spacing: 2px;
+    margin: -140px;
+    margin-left:-100px;
+    text-align: center;
+}
+
+.container-two .overall img {
+    
+    width: 50px;
+    height: auto;
+    
+}
+
+.overall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 300px;
+    padding: 5px;
+    
+}
+
+.container-two p {
+    font-size: 30px;
+    font-family: monospace;
+    color: white
 }
 
 .goku-forward-image img {
@@ -130,7 +170,7 @@ a:hover {
     height: auto;
     width: 450px;
     padding: 100px;
-    border: 1px solid black;
+    
 }
 
 
