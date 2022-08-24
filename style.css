@@ -79,6 +79,10 @@ li:hover {
     color: yellow;
 }
 
+.piccolo li:hover {
+    color: green;
+}
+
 .right-side img {
     width: 400px;
     height: auto;
