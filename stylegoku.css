@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+}
+
+.container-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goku-name {
+    font-family: monospace;
+    font-size: 164px;
+}
+
+.container-one img {
+    width: 200px;
+    height: auto;
+    margin: -125px;
+    padding: 30px;
+        
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.goku-backwards-image img {
+    height: auto;
+    width: 250px;
+    padding: 100px;
+    border: 1px solid black;
+}
+
+.goku-forward-image img {
+    height: auto;
+    width: 450px;
+    padding: 100px;
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 100px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
