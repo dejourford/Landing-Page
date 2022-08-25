@@ -1,0 +1,213 @@
+body {
+    height: 100vh;
+
+}
+
+.header {
+    display: flex;    
+    background-color: white;
+    font-family: fantasy;
+    font-size: 100px;
+    padding: 30px;
+    border: 3px solid red;
+    border-radius: 50px;
+    box-shadow: 1px 0px 5px 10px black;
+    width: fit-content;
+    margin-left: 600px;
+    margin-top: 25px;
+
+}
+
+.container-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: -50px ;
+
+}
+
+.vegeta-name {
+    font-family: monospace;
+    font-size: 150px;
+    display: flex;
+    gap: 20px;
+}
+
+.container-one .vegeta-name img {
+    width: 250px;
+    height: 250px;
+    margin: -80px;
+    padding: 30px;
+        
+}
+
+.left-side img,
+.right-side img {
+    
+    width: 50px;
+    height: auto;
+    
+}
+
+.left-side p,
+.right-side p {
+    font-family: fantasy;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container-one p:hover {
+    color: red;
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    border: 5px solid black;
+    border-radius: 50px;
+    
+
+}
+
+.power-level,
+.potential,
+.intelligence,
+.personality,
+.overall {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 100px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: -50px;
+}
+
+.container-two-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.vegeta-front img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 550px;
+    padding: 75px;
+    
+    
+   
+    margin: 10px;
+}
+
+.container-two .text-box {
+
+    width: 1000px;
+    border: 3px solid red;
+    border-radius: 20px;
+
+    padding: 30px;
+    letter-spacing: 2px;
+    margin: -140px;
+    margin-left:-150px;
+    text-align: center;
+}
+
+.container-two .overall img {
+    
+    width: 50px;
+    height: auto;
+    
+}
+
+.overall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 300px;
+    padding: 5px;
+    
+}
+
+.container-two p {
+    font-size: 30px;
+    font-family: monospace;
+    color: white
+}
+
+.vegeta-front-two img {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 450px;
+    padding: 100px;
+    margin-right: 100px;
+    
+}
+
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+    border-top: 3px solid black;
+    background-color: gray ;
+    height: 20px;
+}
+
+.footer-header {
+    display: flex;    
+    background-color: white;
+    font-family: fantasy;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 800px;
+    margin-bottom: 0px;
+
+}
+
+.link a {
+    font-size: 25px;
+    list-style: none;
+}
+
+
+
+.piccolo li:hover {
+    color: green;
+}
